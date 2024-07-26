@@ -1,0 +1,47 @@
+Project Details Document
+
+Project Title: Analysis of Students' Academic Performance
+
+Objective:
+To analyze the factors influencing students' academic performance, focusing on various features such as gender, parental education, marital status, and ethnic group. The goal is to derive insights and patterns that can help in understanding the impact of these factors on students' scores in Math, Reading, and Writing.
+
+Datasets:
+
+Expanded_data_with_more_features.csv: Contains detailed information about students including gender, ethnic group, parental education, lunch type, test preparation, parental marital status, practice sport, first child status, number of siblings, transport means, weekly study hours, and scores in Math, Reading, and Writing.
+Original_data_with_more_rows.csv: Contains basic information about students including gender, ethnic group, parental education, lunch type, test preparation, and scores in Math, Reading, and Writing.
+Key Steps:
+
+Data Loading:
+
+Load both datasets using pandas.
+Merge the datasets to create a comprehensive dataset for analysis.
+Data Analysis:
+
+Explore the data to understand the distribution of various features.
+Visualize gender distribution.
+Group the data by parental education and analyze the impact on students' scores.
+Group the data by parental marital status and analyze the impact on students' scores.
+Visualize the distribution of scores using box plots.
+Findings:
+
+Gender distribution shows more females than males in the dataset.
+Higher parental education levels correlate with higher student scores in Math, Reading, and Writing.
+Parental marital status does not significantly impact students' scores.
+Visualizations:
+
+Gender Distribution:
+
+A count plot showing the number of male and female students.
+Parental Education and Scores:
+
+A heatmap showing the mean scores in Math, Reading, and Writing for different parental education levels.
+Parental Marital Status and Scores:
+
+A heatmap showing the mean scores in Math, Reading, and Writing for different parental marital statuses.
+Scores Distribution:
+
+Box plots for Math, Reading, and Writing scores to visualize the distribution and identify any outliers.
+Conclusion:
+The analysis reveals significant insights into how different factors influence students' academic performance. Parental education has a notable impact on students' scores, while parental marital status has a negligible impact. These findings can help educators and policymakers in developing strategies to support students' academic growth.
+
+Future Work:
